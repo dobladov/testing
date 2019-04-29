@@ -13,10 +13,11 @@
 
   Main Site
 
-  <div id="some-query-selector"></div>
+  <div data-netlify-identity-menu></div>
+  <div data-netlify-identity-button>Login with Netlify Identity</div>
+
   <script>
       window.netlifyIdentity.init({
-        container: '#some-query-selector', // container to attach to
         APIUrl: ' https://testingnotes.netlify.com/.netlify/identity' // Absolute url to endpoint.  ONLY USE IN SPECIAL CASES!
       })
 
