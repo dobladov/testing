@@ -10,8 +10,7 @@ backend:
   name: github
   repo: dobladov/testing
   branch: master
-  # site_domain: testingnotes.netlify.com
-  site_domain: cms.netlify.com
+  site_domain: testingnotes.netlify.com
 
 media_folder: 'images/uploads'
 
